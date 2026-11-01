@@ -1,6 +1,6 @@
 {
-  "_card-table-graphics-qCjU7MEe.js": {
-    "file": "assets/card-table-graphics-qCjU7MEe.js",
+  "_card-table-graphics-tBytd6oP.js": {
+    "file": "assets/card-table-graphics-tBytd6oP.js",
     "name": "card-table-graphics",
     "isDynamicEntry": true,
     "imports": [
@@ -16,53 +16,53 @@
     "file": "assets/firestore-data-DHACa8in.js",
     "name": "firestore-data"
   },
-  "_graphics-defaults-Cu3eR5Jb.js": {
-    "file": "assets/graphics-defaults-Cu3eR5Jb.js",
+  "_graphics-defaults-DVRF9NZo.css": {
+    "file": "assets/graphics-defaults-DVRF9NZo.css",
+    "src": "_graphics-defaults-DVRF9NZo.css"
+  },
+  "_graphics-defaults-ONhuYYdT.js": {
+    "file": "assets/graphics-defaults-ONhuYYdT.js",
     "name": "graphics-defaults",
     "imports": [
       "index.html",
-      "_card-table-graphics-qCjU7MEe.js"
+      "_card-table-graphics-tBytd6oP.js"
     ],
     "css": [
-      "assets/graphics-defaults-DJQxgzXQ.css"
+      "assets/graphics-defaults-DVRF9NZo.css"
     ]
   },
-  "_graphics-defaults-DJQxgzXQ.css": {
-    "file": "assets/graphics-defaults-DJQxgzXQ.css",
-    "src": "_graphics-defaults-DJQxgzXQ.css"
-  },
-  "_offline-session-Chyi7QqM.js": {
-    "file": "assets/offline-session-Chyi7QqM.js",
+  "_offline-session-D3RUytpM.js": {
+    "file": "assets/offline-session-D3RUytpM.js",
     "name": "offline-session",
     "imports": [
       "index.html"
     ]
   },
-  "_simple-view-B7V5CxOS.js": {
-    "file": "assets/simple-view-B7V5CxOS.js",
+  "_simple-view-CmBTpV66.js": {
+    "file": "assets/simple-view-CmBTpV66.js",
     "name": "simple-view",
     "imports": [
-      "_graphics-defaults-Cu3eR5Jb.js",
-      "_card-table-graphics-qCjU7MEe.js",
+      "_graphics-defaults-ONhuYYdT.js",
+      "_card-table-graphics-tBytd6oP.js",
       "index.html"
     ]
   },
-  "_view-Bq3ARIpI.js": {
-    "file": "assets/view-Bq3ARIpI.js",
+  "_view-DglHUGar.js": {
+    "file": "assets/view-DglHUGar.js",
     "name": "view",
     "imports": [
-      "_graphics-defaults-Cu3eR5Jb.js",
-      "_card-table-graphics-qCjU7MEe.js",
+      "_graphics-defaults-ONhuYYdT.js",
+      "_card-table-graphics-tBytd6oP.js",
       "index.html"
     ]
   },
   "index.html": {
-    "file": "assets/index-DK0IfEHM.js",
+    "file": "assets/index-CFKJOzM4.js",
     "name": "index",
     "src": "index.html",
     "isEntry": true,
     "dynamicImports": [
-      "_card-table-graphics-qCjU7MEe.js",
+      "_card-table-graphics-tBytd6oP.js",
       "src/controller/online-connection.ts",
       "src/games/poker/online-session.ts",
       "src/games/poker/simple-session.ts",
@@ -75,7 +75,7 @@
     ]
   },
   "src/controller/online-connection.ts": {
-    "file": "assets/online-connection-Brtugq4p.js",
+    "file": "assets/online-connection-B2yUGnUd.js",
     "name": "online-connection",
     "src": "src/controller/online-connection.ts",
     "isDynamicEntry": true,
@@ -89,7 +89,7 @@
     ]
   },
   "src/firebase/online-match.ts": {
-    "file": "assets/online-match-B5JCqO66.js",
+    "file": "assets/online-match-C47VbCiQ.js",
     "name": "online-match",
     "src": "src/firebase/online-match.ts",
     "isDynamicEntry": true,
@@ -100,7 +100,7 @@
     ]
   },
   "src/games/daifugo/online-adapter.ts": {
-    "file": "assets/online-adapter-fOVPeQP6.js",
+    "file": "assets/online-adapter-H3jBIrP6.js",
     "name": "online-adapter",
     "src": "src/games/daifugo/online-adapter.ts",
     "isDynamicEntry": true,
@@ -110,7 +110,7 @@
     ]
   },
   "src/games/poker/online-session.ts": {
-    "file": "assets/online-session-qNj6qiw0.js",
+    "file": "assets/online-session-DSRL87e8.js",
     "name": "online-session",
     "src": "src/games/poker/online-session.ts",
     "isDynamicEntry": true,
@@ -118,37 +118,37 @@
       "_config-Dxj95l3H.js",
       "src/firebase/online-match.ts",
       "index.html",
-      "_graphics-defaults-Cu3eR5Jb.js",
-      "_simple-view-B7V5CxOS.js",
-      "_view-Bq3ARIpI.js",
+      "_graphics-defaults-ONhuYYdT.js",
+      "_simple-view-CmBTpV66.js",
+      "_view-DglHUGar.js",
       "_firestore-data-DHACa8in.js",
-      "_card-table-graphics-qCjU7MEe.js"
+      "_card-table-graphics-tBytd6oP.js"
     ]
   },
   "src/games/poker/session.ts": {
-    "file": "assets/session-CLm3pPjj.js",
+    "file": "assets/session-CymWEh0w.js",
     "name": "session",
     "src": "src/games/poker/session.ts",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_offline-session-Chyi7QqM.js",
-      "_view-Bq3ARIpI.js",
-      "_graphics-defaults-Cu3eR5Jb.js",
-      "_card-table-graphics-qCjU7MEe.js"
+      "_offline-session-D3RUytpM.js",
+      "_view-DglHUGar.js",
+      "_graphics-defaults-ONhuYYdT.js",
+      "_card-table-graphics-tBytd6oP.js"
     ]
   },
   "src/games/poker/simple-session.ts": {
-    "file": "assets/simple-session-CuwFFQN1.js",
+    "file": "assets/simple-session-DlRK_nx_.js",
     "name": "simple-session",
     "src": "src/games/poker/simple-session.ts",
     "isDynamicEntry": true,
     "imports": [
-      "_offline-session-Chyi7QqM.js",
+      "_offline-session-D3RUytpM.js",
       "index.html",
-      "_simple-view-B7V5CxOS.js",
-      "_graphics-defaults-Cu3eR5Jb.js",
-      "_card-table-graphics-qCjU7MEe.js"
+      "_simple-view-CmBTpV66.js",
+      "_graphics-defaults-ONhuYYdT.js",
+      "_card-table-graphics-tBytd6oP.js"
     ]
   }
 }
